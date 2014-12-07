@@ -14,7 +14,7 @@ def readLeds ():
 	for ledOn in leds:
 		p.setData(ledOn)
 		print ledOn
-		#time.sleep(0.01);
+		time.sleep(0.01);
 while ( 1 == 1): 
 	#time.sleep(0.5)
 	if (p.getInSelected() == 0):
