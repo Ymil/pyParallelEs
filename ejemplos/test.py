@@ -1,7 +1,9 @@
 import parallel
 import time
-def number(n,d = 0):
-	print d
+def number(n,d = 0): 
+	'''Devuelve el valor decimal de los pines que se quieran preden empezando del A
+	Ejemplo: number(1) = 251'''
+	#print d
 	total = 0
 	for x in range (d, n ):
 		total = total+ 2**x		
