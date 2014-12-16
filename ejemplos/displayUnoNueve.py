@@ -18,7 +18,6 @@ import parallel
 import time
 p = parallel.Parallel()
 numeroDisplay = (249,164,176,153,146,130,248,128,152)
-numeroBucle = 0
 while(1 == 1):
 	p.setData(numeroDisplay[numeroBucle])
 	numeroBucle = numeroBucle + 1

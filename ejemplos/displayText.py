@@ -26,7 +26,7 @@ letras = {"h": b.displayNum(0,0,0,1,0,0,1),
 	"l": b.displayNum(1,0,0,0,1,1,1),
 	"a": b.displayNum(0,0,0,1,0,0,0)
 }
-
+#Decimal 128 = Pin Numero 8
 palabra = "hola"
 while( 1 == 1 ):
 	for letra in palabra:
